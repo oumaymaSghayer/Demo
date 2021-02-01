@@ -94,7 +94,33 @@
 
 });
         </script>
-        <script src="./enjoyhintSteps.js">   
+        <script src="./enjoyhintSteps.js">       
         </script>
+        <div id="recomend__widget"></div>
+        <script>
+          ;(function(window) {
+            var s = document.createElement('script')
+            s.async = true
+            s.src = 'https://widget.recomend.io/v1.js'
+            s.onload = () => {
+              RecomendWidget.mount({
+                apiKey: 'nuj394oh2vq0iag4s4pf49b',
+                product: {
+                  id: 123,
+                  name: 'Headphone',
+                  location: "https://youthful-nobel-d4c6db.netlify.app",
+                  preview: "https://youthful-nobel-d4c6db.netlify.app/images/red.png"
+                },
+                user: {
+                  id: 456,
+                  name: "Johnny Purchaser"
+                }
+              })
+            }
+            var x = document.getElementsByTagName('script')[0]
+            x.parentNode.insertBefore(s, x)
+          })(window, undefined)
+        </script>
+        
     </body>
 </html>
