@@ -257,6 +257,9 @@ form:hover .fa {
   background: #07051a;
   color: white;
 }
+#recomend__widget {
+  margin: 5%;
+}
 /* Responsive */
 @media (max-width: 940px) {
   .container {

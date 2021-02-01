@@ -33,6 +33,12 @@ var enjoyhint_script_steps = [
     showPrev: false,
     showNext: false,
   },
+  {
+    "next #recomend__widget": "You can see reviews of the product here ,",
+    nextButton: { className: "myNext", text: "Got it!" },
+    showSkip: false,
+    showPrev: false,
+  },
 ];
 
 //set script config
