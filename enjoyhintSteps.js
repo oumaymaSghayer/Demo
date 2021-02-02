@@ -39,6 +39,12 @@ var enjoyhint_script_steps = [
     showSkip: false,
     showPrev: false,
   },
+  {
+    "next .load-svg": "Add review here ,",
+    nextButton: { className: "myNext", text: "Got it!" },
+    showSkip: false,
+    showPrev: false,
+  },
 ];
 
 //set script config
