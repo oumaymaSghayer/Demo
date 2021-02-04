@@ -36,7 +36,7 @@ var enjoyhint_script_steps = [
   {
     "next .product-price":
       " Made up your mind already? Good for you 🤗, <br/> just click on add to cart and go get that order 👌",
-    nextButton: { className: "myNext", text: "done!" },
+    nextButton: { className: "myNext", text: "Done!" },
     showPrev: false,
     showSkip: false,
   },
