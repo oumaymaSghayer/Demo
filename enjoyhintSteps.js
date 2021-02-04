@@ -2,48 +2,43 @@
 var enjoyhint_instance = new EnjoyHint({});
 var enjoyhint_script_steps = [
   {
-    "click #search":
-      " <h1>Hello !</h1>  <br/>  <h2> Welcome to our Demo! </h2> <br/> Click here to search for any product,",
+    "next #search":
+      " 👋 Hello,<br/> You can type what you're looking for here!",
     shape: "circle",
+    nextButton: { className: "myNext", text: "Next" },
+    showSkip: false,
+    showPrev: false,
     // radius: 80,
   },
   {
-    "next .product-description": " You'll find here description of the product",
+    "next .product-description":
+      " Read the description to find out more about the product 🔎",
     nextButton: { className: "myNext", text: "Next" },
     showSkip: false,
     showPrev: false,
   },
-  /*{
-    "next .left-column": " You can see the product here ,",
-    nextButton: { className: "myNext", text: "Next" },
-    showSkip: false,
-    showPrev: false,
-  },*/
 
   {
-    "next .product-color": "Click on any to change the product color",
+    "next .product-color": "And hey, you can check the different colors 😎",
     nextButton: { className: "myNext", text: "Sure" },
     showSkip: false,
     showPrev: false,
   },
+
   {
-    "click .product-price":
-      " Check out the price, and  click to add it to your cart!",
-    showSkip: false,
-    showPrev: false,
-    showNext: false,
-  },
-  {
-    "next #recomend__widget": "You can see reviews of the product here ,",
+    "next #recomend__widget":
+      "But most of all, check what people have to say about it 🤔!<br/> Just scroll and watch reviews ✨",
     nextButton: { className: "myNext", text: "Got it!" },
     showSkip: false,
     showPrev: false,
   },
+
   {
-    "next .load-svg": "Add review here ,",
-    nextButton: { className: "myNext", text: "Got it!" },
-    showSkip: false,
+    "next .product-price":
+      " Made up your mind already? Good for you 🤗, just click on add to cart and go get that order 👌",
+    nextButton: { className: "myNext", text: "done!" },
     showPrev: false,
+    showSkip: false,
   },
 ];
 
