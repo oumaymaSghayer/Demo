@@ -32,7 +32,18 @@ var enjoyhint_script_steps = [
     showSkip: false,
     showPrev: false,
   },
-
+  {
+    "next .rating-block": "Filter by rate here",
+    nextButton: { className: "myNext", text: "Okay!" },
+    showSkip: false,
+    showPrev: false,
+  },
+  {
+    "next .reviews-block": "Watch reviews and Scroll for more reviews",
+    nextButton: { className: "myNext", text: "Okay!" },
+    showSkip: false,
+    showPrev: false,
+  },
   {
     "next .product-price":
       " Made up your mind already? Good for you 🤗, <br/> just click on add to cart and go get that order 👌",

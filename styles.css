@@ -3,7 +3,8 @@ html,
 body {
   height: 100%;
   width: 100%;
-  margin: 0;
+  margin: 0px;
+  padding-bottom: 100px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -259,6 +260,31 @@ form:hover .fa {
 }
 #recomend__widget {
   margin: 5%;
+  z-index: 5;
+}
+.rcmd-container {
+  margin: 20px;
+  padding: 5px;
+  margin-bottom: 50px !important;
+  position: relative;
+}
+.rating-block {
+  position: absolute;
+  z-index: 2;
+  background-color: transparent;
+  height: 150px;
+  width: 150px;
+  top: 70px;
+  left: 190px;
+}
+.reviews-block {
+  position: absolute;
+  z-index: 2;
+  background-color: transparent;
+  height: 150px;
+  width: 580px;
+  top: 70px;
+  right: 180px;
 }
 /* Responsive */
 @media (max-width: 940px) {
