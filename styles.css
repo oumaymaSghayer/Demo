@@ -262,30 +262,32 @@ form:hover .fa {
   margin: 5%;
   z-index: 5;
 }
+
 .rcmd-container {
-  margin: 20px;
-  padding: 5px;
   margin-bottom: 50px !important;
   position: relative;
 }
 .rating-block {
   position: absolute;
   z-index: 2;
-  background-color: transparent;
   height: 150px;
-  width: 150px;
-  top: 70px;
-  left: 190px;
+  width: 200px;
+  background-color: transparent;
+  left: 12%;
+  top: 0;
+  opacity: 0.5;
 }
 .reviews-block {
   position: absolute;
   z-index: 2;
   background-color: transparent;
   height: 150px;
-  width: 580px;
-  top: 70px;
-  right: 180px;
+  width: 500px;
+  top: 0;
+  left: 45%;
+  opacity: 0.5;
 }
+
 /* Responsive */
 @media (max-width: 940px) {
   .container {
@@ -310,5 +312,71 @@ form:hover .fa {
   .left-column img {
     width: 220px;
     top: -85px;
+  }
+}
+@media (min-width: 2560px) {
+  .rating-block {
+    position: absolute;
+    z-index: 2;
+    height: 150px;
+    width: 200px;
+    background-color: transparent;
+    left: 28%;
+    top: 0;
+    opacity: 0.5;
+  }
+  .reviews-block {
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+    height: 150px;
+    width: 30%;
+    top: 0;
+    left: 42%;
+    opacity: 0.5;
+  }
+}
+@media (min-width: 2000px) and (max-width: 2560px) {
+  .rating-block {
+    position: absolute;
+    z-index: 2;
+    height: 150px;
+    width: 200px;
+    background-color: transparent;
+    left: 28%;
+    top: 0;
+    opacity: 0.5;
+  }
+  .reviews-block {
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+    height: 150px;
+    width: 750px;
+    top: 0;
+    left: 42%;
+    opacity: 0.5;
+  }
+}
+@media (min-width: 1100px) and (max-width: 1440px) {
+  .rating-block {
+    position: absolute;
+    z-index: 2;
+    height: 150px;
+    width: 200px;
+    background-color: transparent;
+    left: 8%;
+    top: 0;
+    opacity: 0.5;
+  }
+  .reviews-block {
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+    height: 150px;
+    width: 750px;
+    top: 0;
+    left: 40%;
+    opacity: 0.5;
   }
 }

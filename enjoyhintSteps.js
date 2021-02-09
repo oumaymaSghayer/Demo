@@ -2,17 +2,8 @@
 var enjoyhint_instance = new EnjoyHint({});
 var enjoyhint_script_steps = [
   {
-    "next #search":
-      " 👋 Hello,<br/> You can type what you're looking for here!",
-    shape: "circle",
-    nextButton: { className: "myNext", text: "Next" },
-    showSkip: false,
-    showPrev: false,
-    // radius: 80,
-  },
-  {
     "next .product-description":
-      " Read the description to find out more about the product 🔎",
+      " 👋 Hello! <br/> Read the description to find out more about the product 🔎",
     nextButton: { className: "myNext", text: "Next" },
     showSkip: false,
     showPrev: false,
